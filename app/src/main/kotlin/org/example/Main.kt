@@ -3,13 +3,8 @@
  */
 package org.example
 
-import org.example.app.Fecha
-
+import org.example.app.App
 fun main() {
-   var fecha: Fecha
-   fecha=Fecha()
-
-   fecha.inicializar(2026,5,29)
-
-   println(fecha.toString())
+   val app=App()
+   app.arranque()
 }

@@ -1,8 +1,13 @@
 package org.example.app
+import org.example.app.Fecha
 
 class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
+    fun arranque(){
+        var fecha: Fecha
+        fecha=Fecha()
+
+        fecha.inicializar(2026,5,29)
+
+        println(fecha.toString())
+    }
 }
